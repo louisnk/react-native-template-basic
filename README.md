@@ -4,6 +4,22 @@ This application was created using [react-native-cli](https://facebook.github.io
 
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/)
 
+## Whats setup?
+
+- Babel support for v7
+
+- React navigation v2
+
+- Redux
+
+- Redux persist
+
+- Redux devtools (Currently works with Mac OS)
+
+- Git hooks
+
+- Flow for typechecking
+
 ## How to use the Template in react-native init
 
 Use the command:
