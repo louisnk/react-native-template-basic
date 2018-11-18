@@ -3,6 +3,14 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
+    "android": "react-native run-android",
+    "clean": "watchman watch-del-all && rm -rf node_modules && yarn && rm -rf /tmp/metro-bundler-cache-* && rm -rf /tmp/haste-map-react-native-packager-*",
+    "debug": "open 'rndebugger://set-debugger-loc?host=localhost&port=8081'",
+    "flow": "flow",
+    "flow-stop": "flow stop",
+    "ios": "react-native run-ios",
+    "lint": "eslint --ext .js --ext .jsx  --ignore-path .gitignore --ignore-pattern 'node_modules/**/*' ./",
+    "lint-fix": "eslint --fix ./src",
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest"
   },
