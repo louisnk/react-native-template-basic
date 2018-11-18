@@ -1,0 +1,3 @@
+rootProject.name = 'rn_template_basic'
+
+include ':app'
